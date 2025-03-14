@@ -1,16 +1,30 @@
 {
-  "name": "open-budjet-bot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "grammy": "^1.35.0"
-  }
+	"name": "open-budjet-bot",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/index.js",
+		"dev": "nodemon src/index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.7",
+		"fs-extra": "^11.3.0",
+		"grammy": "^1.35.0",
+		"node-telegram-bot-api": "^0.66.0",
+		"tesseract.js": "^6.0.0"
+	},
+	"description": "",
+	"devDependencies": {
+		"@types/fs-extra": "^11.0.4",
+		"@types/node": "^22.13.10",
+		"@types/node-telegram-bot-api": "^0.64.7",
+		"@types/tesseract.js": "^2.0.0",
+		"nodemon": "^3.1.9",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.2"
+	}
 }
