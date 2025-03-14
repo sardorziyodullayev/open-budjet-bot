@@ -20,7 +20,7 @@ https://openbudget.uz/boards/initiatives/initiative/50/aa107adf-552b-4200-ab71-3
 
 export function sendWelcomeMessage(bot: TelegramBot, chatId: number) {
    bot.sendMessage(chatId, welcomeText, {
-      parse_mode: "Markdown",
+      parse_mode: "HTML",
       reply_markup: {
          keyboard: [
             [{ text: "📥 Ovoz berish" }],
