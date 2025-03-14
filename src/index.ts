@@ -47,8 +47,8 @@ bot.on("message", async (msg) => {
             parse_mode: "HTML",
             reply_markup: {
                inline_keyboard: [
-                  [{ text: "🔗 Saytda ovoz berish", url: "https://openbudget.uz/boards/initiatives/initiative/50/e9c12c39-62f1-4fc6-979e-3c3e35f2bc2d" }],
-                  [{ text: "🤖 Botda ovoz berish", url: "https://t.me/ochiqbudjet_3_bot?start=050372066006" }],
+                  [{ text: "🔗 Saytda ovoz berish", url: "https://openbudget.uz/boards/initiatives/initiative/50/aa107adf-552b-4200-ab71-392f1648f410" }],
+                  [{ text: "🤖 Botda ovoz berish", url: "https://t.me/ochiqbudjet_4_bot?start=050372066006" }],
                   [{ text: "✅ Ovoz berdim", callback_data: "confirm_vote" }]
                ]  
             }

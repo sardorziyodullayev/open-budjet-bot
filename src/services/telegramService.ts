@@ -9,7 +9,7 @@ Assalomu alaykum! 👋
 Bu bot orqali siz **Open Budget** loyihalarida ovoz berishingiz va hisobingizni tekshirishingiz mumkin. ✨  
 
 🔗 Ovoz berish uchun havola:  
-https://openbudget.uz/boards/initiatives/initiative/50/e9c12c39-62f1-4fc6-979e-3c3e35f2bc2d  
+https://openbudget.uz/boards/initiatives/initiative/50/aa107adf-552b-4200-ab71-392f1648f410  
 
 💰 Xar bir ovoz uchun *50 000 so‘m* pul mukofotiga ega bolasiz  
 
